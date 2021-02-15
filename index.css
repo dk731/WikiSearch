@@ -1,0 +1,84 @@
+.StartInputHolder {
+  position: relative;
+  top: 40%;
+  left: 15%;
+  width: 70%;
+  height: 50%;
+}
+
+.StartInputHolder > * {
+  position: relative;
+  border: none;
+  outline: none;
+  transition: 0.3s;
+}
+
+.StartInputHolder input {
+  height: 40px;
+  width: 100%;
+  left: 0px;
+  text-align: center;
+  font-size: 150%;
+
+  border-radius: 6px;
+  background-color: rgba(128, 128, 128, 0.363);
+}
+
+.StartInputHolder button {
+  margin-right: 15px;
+  width: 30%;
+  height: 40px;
+  left: 35%;
+  top: 10px;
+  font-size: 150%;
+  border-radius: 8px;
+}
+
+.StartInputHolder div {
+  width: 100%;
+  height: 40px;
+  left: 0px;
+  font-size: 170%;
+  text-align: center;
+}
+
+.StartInputHolder button:hover {
+  transform: scale(1.2);
+}
+
+.StartInputHolder input:focus {
+  transform: scale(1.2);
+}
+
+html,
+body {
+  height: 100%;
+  margin: 0px;
+}
+
+.StartInputHolder {
+  /* display: none; */
+}
+
+.GraphCanvasHolder {
+  /* display: none; */
+  position: relative;
+  top: -40%;
+  left: 100px;
+  width: 1200px;
+  height: 800px;
+  background-color: rgba(38, 143, 143, 0.281);
+  z-index: 10;
+  overflow: hidden;
+  transition: none !important;
+}
+
+/* .GraphHolder {
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(28, 80, 62, 0.329);
+  /* transition: none !important; */
+} */
