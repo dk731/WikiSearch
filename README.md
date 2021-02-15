@@ -2,7 +2,7 @@
 
 ## Basic information
 
-Idea behind the project was to create app in pure JS that would parse given wiki page and extract all related articles. Then visualize them as many circles with main acricle images. App failed because I didnt find clever way of gathering and structuring all needed infomarion.
+Idea behind the project was to create app in pure JS that would parse given wiki page and extract all related articles. Then visualize them as many circles with main acricle images and size representing their popularity. App failed because I didnt find clever way of gathering and structuring all needed infomarion.
 
 ## Full of bags
 
